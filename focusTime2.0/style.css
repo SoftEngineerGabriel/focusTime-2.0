@@ -23,14 +23,39 @@ button{
 
 main{
     display: flex;
-    gap: 19.2rem;
+    gap: 15.2rem;
 
-    font-family: 'Roboto', sans-serif;
+
 }
+
+.timerButtons{
+    margin-top: 5.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 126.166px;
+    line-height: 148px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #323238;
+}
+.time{
+    display: flex;
+}
+.buttons{
+    width: 33.1rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .controls{
     display: grid;
     grid-template-areas: 
     'A B'
     'C D';
-    gap: 3.2rem;
+    gap: 2.2rem;
 }
